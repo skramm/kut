@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="kut" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="build/bin/kut" prefix_auto="1" extension_auto="1" />
+				<Option object_output="build/obj/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="demo/demo1/demo1.cpp" />
+		<Unit filename="demo/demo1/func.h" />
+		<Unit filename="demo/demo1/test/test.cpp" />
+		<Unit filename="demo/demo2/demo2.cpp" />
+		<Unit filename="demo/demo2/test/test.cpp" />
+		<Unit filename="doxyfile" />
+		<Unit filename="kut.h" />
+		<Unit filename="kut_doc.h" />
+		<Unit filename="makefile" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<lib_finder disable_auto="1" />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
